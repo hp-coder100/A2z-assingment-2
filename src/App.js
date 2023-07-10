@@ -1,24 +1,31 @@
-import logo from './logo.svg';
-import './App.css';
-
+import "./App.css";
+import Home from "./Home";
+import { Container, Navbar } from "react-bootstrap";
+import "bootstrap/dist/css/bootstrap.min.css";
+import Login from "./Login";
+import { useState } from "react";
+import Navigation from "./Navigation";
 function App() {
+  const [user, setUser] = useState(null);
+
+  const login = (newUser) => {
+    setUser(newUser);
+  };
+  const logout = () => {
+    setUser(null);
+  };
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Navigation user={user} logout={logout}></Navigation>
+      {user && <Home user={user} />}
+      {!user && <Login login={login} />}
+
+      <div className="d-flex flex-column flex-md-row justify-content-around px-2 align-items-center bg-dark text-white fixed-bottom">
+        <p>Subbmitted by : HEMANT PRAJAPTI</p>
+        <p> Email : hemantprajapati6507@gmail.com </p>
+      </div>
+    </>
   );
 }
 
