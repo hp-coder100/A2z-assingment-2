@@ -1,3 +1,46 @@
+# Assessment 2 Completed these given task in this porject
+
+
+You can visit the live website here : [Live Demo](https://hp-coder100.github.io/A2z-assingment-2/)
+
+## Task 0: Login Page
+
+Create a login page where users can log in with their username and password. Include a "Forgot Password" section.
+
+## Task 1: Landing Page
+
+Create a landing page with a welcome message that addresses the user by name and the time of day. For example, "Good Morning, Rescuer! How are you doing today, Sam?" Design a navigation menu that allows users to create a new ticket.
+
+## Task 2: New Ticket Page
+
+Design a new ticket page with the following fields:
+
+- Lead Source
+- Name
+- Contact Number
+- Email Address
+- Vehicle Make
+- Vehicle Registration Number
+- Breakdown Issue
+- Location
+- Service Fee
+- Assistance Time
+- Comments
+
+Design a "Submit" button for submitting the form. Upon clicking the button, display a pop-up screen that says "New Task Created Successfully."
+
+**Additional Notes:**
+
+1. All fields except Service Fee are mandatory.
+2. The Lead Source field should be a drop-down with options: Web, Chat, Call.
+3. Validate the Email Address field to ensure it contains a valid email address.
+4. Vehicle Registration Number should be in all caps and not allow spaces between characters.
+5. Assistance Time should show the current time/calendar time for scheduling the ticket.
+
+All pages should be designed to be responsive, allowing them to be viewed on desktop/laptop and mobile phones.
+
+## Technologies Used -React JS
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
