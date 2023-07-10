@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/A2z-assingment-2/static/css/main.c8905452.css",
+    "main.js": "/A2z-assingment-2/static/js/main.0647c4ed.js",
+    "static/js/787.7f831edb.chunk.js": "/A2z-assingment-2/static/js/787.7f831edb.chunk.js",
+    "index.html": "/A2z-assingment-2/index.html",
+    "main.c8905452.css.map": "/A2z-assingment-2/static/css/main.c8905452.css.map",
+    "main.0647c4ed.js.map": "/A2z-assingment-2/static/js/main.0647c4ed.js.map",
+    "787.7f831edb.chunk.js.map": "/A2z-assingment-2/static/js/787.7f831edb.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c8905452.css",
+    "static/js/main.0647c4ed.js"
+  ]
+}
